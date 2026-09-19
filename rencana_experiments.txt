@@ -1,0 +1,39 @@
+1. Melatih dataset shrimp internal, shrimp external, dan merge shrimp internal-external untuk mencari tahu version terbaik dari yolo v8, v9, v10, v11, v12, v26 menggunakan size paling terkecil.
+2. Version terbaik digunakan untuk melatih experiment selanjutnya menggunakan size nano, small, dan medium untuk melihat pengaruh size terhadap mAP dan size.
+3. Melatih model shrimp internal menggunakan class WFD dan without WFD untuk mengetahui apakah model bisa membedakan atau tidak.
+4. Melatih model menggunakan augmentation dan without augmentation.
+5. Melatih model menggunakan null annotation.
+6. Melatih model klasifikasi.
+7. Latih untuk shrimp sehat sakit (binary) dan latih untuk shrimp sehat, sakit (tetapi sakitnya apa)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
