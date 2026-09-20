@@ -1,0 +1,17 @@
+Kategori OOD,Total Gambar,False Alarm (Img),Total BBox Palsu,FPR (%),Rata-rata Conf,Max Conf,Kelas Dominan Salah
+alat_ukur_lab,2,0,0,0.0,0.0,0.0,-
+alga_plankton_water,30,1,1,3.33,0.485,0.485,healthy
+crustacean,50,1,1,2.0,0.583,0.583,healthy
+equipment,50,1,1,2.0,0.868,0.868,healthy
+fish,50,0,0,0.0,0.0,0.0,-
+hand,50,0,0,0.0,0.0,0.0,-
+human,50,0,0,0.0,0.0,0.0,-
+ikan_polikultur,30,1,1,3.33,0.89,0.89,unhealthy
+krustasea_non_udang,30,1,1,3.33,0.332,0.332,healthy
+moluska_sefalopoda,30,0,0,0.0,0.0,0.0,-
+pakan_pelet_anco,30,0,0,0.0,0.0,0.0,-
+random_objects,50,0,0,0.0,0.0,0.0,-
+rock_shell,50,0,0,0.0,0.0,0.0,-
+terpal_geomembrane,30,0,0,0.0,0.0,0.0,-
+water_pond,50,0,0,0.0,0.0,0.0,-
+== KESELURUHAN (TOTAL) ==,582,5,5,0.86,0.632,0.89,-
