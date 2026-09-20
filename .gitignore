@@ -10,3 +10,6 @@ wheels/
 .venv
 
 dataset/
+runs/
+*.pt
+*.tflite

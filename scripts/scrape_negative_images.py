@@ -21,6 +21,20 @@ from typing import Dict, List, Optional
 from PIL import Image
 from bing_image_downloader import downloader
 
+# Project root directory (one level up from scripts/)
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+
+
+def resolve_path(p: str | Path) -> Path:
+    """Resolve path relative to cwd if exists, otherwise relative to PROJECT_ROOT."""
+    path = Path(p)
+    if path.is_absolute():
+        return path
+    if (Path.cwd() / path).exists():
+        return (Path.cwd() / path).resolve()
+    return (PROJECT_ROOT / path).resolve()
+
+
 # Presets for target quotas based on agent.md
 TARGET_PRESETS = {
     "combined": {  # 860 images total = 460 Roboflow (Train/Val/Test) + 400 OOD_TEST
@@ -287,7 +301,7 @@ def run_scraper(
     dry_run: bool = False,
 ):
     """Main function to run scraping pipeline across categories."""
-    output_path = Path(output_dir)
+    output_path = resolve_path(output_dir)
 
     if mode not in TARGET_PRESETS:
         print(f"Error: Unknown mode '{mode}'. Choose from: {list(TARGET_PRESETS.keys())}")

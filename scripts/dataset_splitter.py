@@ -13,6 +13,20 @@ import random
 import shutil
 from pathlib import Path
 
+# Project root directory (one level up from scripts/)
+PROJECT_ROOT = Path(__file__).resolve().parent.parent
+
+
+def resolve_path(p: str | Path) -> Path:
+    """Resolve path relative to cwd if exists, otherwise relative to PROJECT_ROOT."""
+    path = Path(p)
+    if path.is_absolute():
+        return path
+    if (Path.cwd() / path).exists():
+        return (Path.cwd() / path).resolve()
+    return (PROJECT_ROOT / path).resolve()
+
+
 DEFAULT_OOD_QUOTAS = {
     "human": 50,
     "hand": 50,
@@ -30,15 +44,15 @@ DEFAULT_OOD_QUOTAS = {
 def split_dataset(
     source_dir: str = "dataset/scrap/negative_images",
     ood_dir: str = "dataset/OOD_TEST",
-    train_dir: str = "dataset/YOLO_NEGATIVES",
+    train_dir: str = "dataset/ROBOFLOW_NEGATIVES",
     ood_quota_per_cat: int = 50,
     seed: int = 42,
     create_yolo_txt_for_train: bool = True,
     clean_dest: bool = True,
 ):
-    source_path = Path(source_dir)
-    ood_path = Path(ood_dir)
-    train_path = Path(train_dir)
+    source_path = resolve_path(source_dir)
+    ood_path = resolve_path(ood_dir)
+    train_path = resolve_path(train_dir)
 
     if not source_path.exists():
         print(f"Error: Source directory {source_path} does not exist.")
