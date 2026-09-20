@@ -1,0 +1,22 @@
+Method,Backbone,N-Way,K-Shot,Metric,Accuracy,CI95
+ProtoNet (Euclidean),dinov2_vits14,5,1,euclidean,45.59,1.59
+ProtoNet (Euclidean),dinov2_vits14,5,5,euclidean,65.76,1.5
+ProtoNet (Euclidean),dinov2_vits14,5,10,euclidean,70.28,1.42
+ProtoNet (Cosine),dinov2_vits14,5,1,cosine,44.81,1.76
+ProtoNet (Cosine),dinov2_vits14,5,5,cosine,65.55,1.74
+ProtoNet (Cosine),dinov2_vits14,5,10,cosine,70.59,1.5
+ProtoNet (Euclidean),convnext_tiny,5,1,euclidean,45.12,1.84
+ProtoNet (Euclidean),convnext_tiny,5,5,euclidean,64.47,1.73
+ProtoNet (Euclidean),convnext_tiny,5,10,euclidean,69.68,1.54
+ProtoNet (Cosine),convnext_tiny,5,1,cosine,46.59,1.89
+ProtoNet (Cosine),convnext_tiny,5,5,cosine,63.36,1.43
+ProtoNet (Cosine),convnext_tiny,5,10,cosine,68.08,1.59
+ProtoNet (Euclidean),resnet50,5,1,euclidean,41.96,1.51
+ProtoNet (Euclidean),resnet50,5,5,euclidean,59.53,1.67
+ProtoNet (Euclidean),resnet50,5,10,euclidean,64.05,1.62
+ProtoNet (Cosine),resnet50,5,1,cosine,42.63,1.71
+ProtoNet (Cosine),resnet50,5,5,cosine,56.59,1.48
+ProtoNet (Cosine),resnet50,5,10,cosine,63.76,1.55
+Conventional Fine-Tuning,dinov2_vits14,5,1,Cross-Entropy,45.57,2.26
+Conventional Fine-Tuning,dinov2_vits14,5,5,Cross-Entropy,65.55,2.11
+Conventional Fine-Tuning,dinov2_vits14,5,10,Cross-Entropy,73.04,2.31

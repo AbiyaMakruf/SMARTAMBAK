@@ -1,0 +1,191 @@
+[
+  {
+    "Method": "ProtoNet (Euclidean)",
+    "Backbone": "dinov2_vits14",
+    "N-Way": 5,
+    "K-Shot": 1,
+    "Metric": "euclidean",
+    "Accuracy": 45.59,
+    "CI95": 1.59
+  },
+  {
+    "Method": "ProtoNet (Euclidean)",
+    "Backbone": "dinov2_vits14",
+    "N-Way": 5,
+    "K-Shot": 5,
+    "Metric": "euclidean",
+    "Accuracy": 65.76,
+    "CI95": 1.5
+  },
+  {
+    "Method": "ProtoNet (Euclidean)",
+    "Backbone": "dinov2_vits14",
+    "N-Way": 5,
+    "K-Shot": 10,
+    "Metric": "euclidean",
+    "Accuracy": 70.28,
+    "CI95": 1.42
+  },
+  {
+    "Method": "ProtoNet (Cosine)",
+    "Backbone": "dinov2_vits14",
+    "N-Way": 5,
+    "K-Shot": 1,
+    "Metric": "cosine",
+    "Accuracy": 44.81,
+    "CI95": 1.76
+  },
+  {
+    "Method": "ProtoNet (Cosine)",
+    "Backbone": "dinov2_vits14",
+    "N-Way": 5,
+    "K-Shot": 5,
+    "Metric": "cosine",
+    "Accuracy": 65.55,
+    "CI95": 1.74
+  },
+  {
+    "Method": "ProtoNet (Cosine)",
+    "Backbone": "dinov2_vits14",
+    "N-Way": 5,
+    "K-Shot": 10,
+    "Metric": "cosine",
+    "Accuracy": 70.59,
+    "CI95": 1.5
+  },
+  {
+    "Method": "ProtoNet (Euclidean)",
+    "Backbone": "convnext_tiny",
+    "N-Way": 5,
+    "K-Shot": 1,
+    "Metric": "euclidean",
+    "Accuracy": 45.12,
+    "CI95": 1.84
+  },
+  {
+    "Method": "ProtoNet (Euclidean)",
+    "Backbone": "convnext_tiny",
+    "N-Way": 5,
+    "K-Shot": 5,
+    "Metric": "euclidean",
+    "Accuracy": 64.47,
+    "CI95": 1.73
+  },
+  {
+    "Method": "ProtoNet (Euclidean)",
+    "Backbone": "convnext_tiny",
+    "N-Way": 5,
+    "K-Shot": 10,
+    "Metric": "euclidean",
+    "Accuracy": 69.68,
+    "CI95": 1.54
+  },
+  {
+    "Method": "ProtoNet (Cosine)",
+    "Backbone": "convnext_tiny",
+    "N-Way": 5,
+    "K-Shot": 1,
+    "Metric": "cosine",
+    "Accuracy": 46.59,
+    "CI95": 1.89
+  },
+  {
+    "Method": "ProtoNet (Cosine)",
+    "Backbone": "convnext_tiny",
+    "N-Way": 5,
+    "K-Shot": 5,
+    "Metric": "cosine",
+    "Accuracy": 63.36,
+    "CI95": 1.43
+  },
+  {
+    "Method": "ProtoNet (Cosine)",
+    "Backbone": "convnext_tiny",
+    "N-Way": 5,
+    "K-Shot": 10,
+    "Metric": "cosine",
+    "Accuracy": 68.08,
+    "CI95": 1.59
+  },
+  {
+    "Method": "ProtoNet (Euclidean)",
+    "Backbone": "resnet50",
+    "N-Way": 5,
+    "K-Shot": 1,
+    "Metric": "euclidean",
+    "Accuracy": 41.96,
+    "CI95": 1.51
+  },
+  {
+    "Method": "ProtoNet (Euclidean)",
+    "Backbone": "resnet50",
+    "N-Way": 5,
+    "K-Shot": 5,
+    "Metric": "euclidean",
+    "Accuracy": 59.53,
+    "CI95": 1.67
+  },
+  {
+    "Method": "ProtoNet (Euclidean)",
+    "Backbone": "resnet50",
+    "N-Way": 5,
+    "K-Shot": 10,
+    "Metric": "euclidean",
+    "Accuracy": 64.05,
+    "CI95": 1.62
+  },
+  {
+    "Method": "ProtoNet (Cosine)",
+    "Backbone": "resnet50",
+    "N-Way": 5,
+    "K-Shot": 1,
+    "Metric": "cosine",
+    "Accuracy": 42.63,
+    "CI95": 1.71
+  },
+  {
+    "Method": "ProtoNet (Cosine)",
+    "Backbone": "resnet50",
+    "N-Way": 5,
+    "K-Shot": 5,
+    "Metric": "cosine",
+    "Accuracy": 56.59,
+    "CI95": 1.48
+  },
+  {
+    "Method": "ProtoNet (Cosine)",
+    "Backbone": "resnet50",
+    "N-Way": 5,
+    "K-Shot": 10,
+    "Metric": "cosine",
+    "Accuracy": 63.76,
+    "CI95": 1.55
+  },
+  {
+    "Method": "Conventional Fine-Tuning",
+    "Backbone": "dinov2_vits14",
+    "N-Way": 5,
+    "K-Shot": 1,
+    "Metric": "Cross-Entropy",
+    "Accuracy": 45.57,
+    "CI95": 2.26
+  },
+  {
+    "Method": "Conventional Fine-Tuning",
+    "Backbone": "dinov2_vits14",
+    "N-Way": 5,
+    "K-Shot": 5,
+    "Metric": "Cross-Entropy",
+    "Accuracy": 65.55,
+    "CI95": 2.11
+  },
+  {
+    "Method": "Conventional Fine-Tuning",
+    "Backbone": "dinov2_vits14",
+    "N-Way": 5,
+    "K-Shot": 10,
+    "Metric": "Cross-Entropy",
+    "Accuracy": 73.04,
+    "CI95": 2.31
+  }
+]

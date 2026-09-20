@@ -13,3 +13,12 @@ dataset/
 runs/
 *.pt
 *.tflite
+
+# LaTeX auxiliary files
+*.aux
+*.log
+*.synctex.gz
+*.out
+
+# Large feature caches
+reports/*.npz
