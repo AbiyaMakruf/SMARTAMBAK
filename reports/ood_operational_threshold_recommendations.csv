@@ -1,0 +1,4 @@
+Zona Operasional,Rentang Confidence,Tindakan di Aplikasi,Resiko False Alarm,Instruksi UI Aplikasi
+🛑 ZONA MERAH (Ditolak),Conf < 0.35 (< 35%),JANGAN KELUARKAN OUTPUT (Suppressed). Buang bounding box.,"Tinggi (Pantulan air, lumpur, gelembung kincir)",Tidak menampilkan apa pun pada layar petambak.
+🟡 ZONA KUNING (Peringatan),0.35 <= Conf < 0.50 (35% - 50%),TAMPILKAN DENGAN BADGE PERINGATAN (Low Confidence).,Rendah (Objek samar / pencahayaan buruk),"Tampilkan kotak kuning: 'Hasil estimasi, disarankan cek ulang.'"
+🟢 ZONA HIJAU (Produksi Aman),Conf >= 0.50 (>= 50%),KELUARKAN OUTPUT SEBAGAI DETEKSI VALID.,Hampir 0% (Tervalidasi Anatomi Udang),Tampilkan kotak hijau & lanjutkan ke diagnosis kesehatan FSL.

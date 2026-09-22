@@ -1,0 +1,25 @@
+Kategori OOD,Total Gambar,M1 False Alarm,M1 FPR (%),M2 False Alarm,M2 FPR (%),M3 False Alarm,M3 FPR (%),Status Perbaikan
+alat_ukur_lab,30,0,0.0,1,3.33,0,0.0,⚠️ PERLU DIVERIFIKASI
+alga_plankton_water,30,1,3.33,0,0.0,1,3.33,🛡️ TANGGUH
+apd_pekerja,30,0,0.0,0,0.0,0,0.0,🛡️ TANGGUH
+burung_pemangsa,30,0,0.0,0,0.0,3,10.0,✅ BERSIH TOTAL
+crustacean,50,1,2.0,2,4.0,1,2.0,⚠️ PERLU DIVERIFIKASI
+equipment,50,1,2.0,0,0.0,0,0.0,⚠️ PERLU DIVERIFIKASI
+fish,50,0,0.0,0,0.0,0,0.0,🛡️ TANGGUH
+hand,50,0,0.0,0,0.0,0,0.0,🛡️ TANGGUH
+hewan_liar_pesisir,30,0,0.0,0,0.0,0,0.0,🛡️ TANGGUH
+human,50,0,0.0,0,0.0,0,0.0,🛡️ TANGGUH
+ikan_polikultur,30,1,3.33,1,3.33,1,3.33,🛡️ TANGGUH
+kincir_aerator,30,0,0.0,0,0.0,0,0.0,🛡️ TANGGUH
+krustasea_non_udang,30,1,3.33,0,0.0,3,10.0,🛡️ TANGGUH
+logistik_panen,30,0,0.0,0,0.0,0,0.0,🛡️ TANGGUH
+lumpur_dasar_monik,30,1,3.33,1,3.33,1,3.33,🛡️ TANGGUH
+mangrove_vegetasi,30,0,0.0,0,0.0,0,0.0,🛡️ TANGGUH
+moluska_sefalopoda,30,0,0.0,0,0.0,0,0.0,🛡️ TANGGUH
+pakan_pelet_anco,30,0,0.0,0,0.0,0,0.0,🛡️ TANGGUH
+pipa_saluran_pvc,30,0,0.0,0,0.0,0,0.0,🛡️ TANGGUH
+random_objects,50,0,0.0,2,4.0,1,2.0,⚠️ PERLU DIVERIFIKASI
+rock_shell,50,0,0.0,0,0.0,0,0.0,🛡️ TANGGUH
+terpal_geomembrane,30,0,0.0,0,0.0,1,3.33,✅ BERSIH TOTAL
+water_pond,50,0,0.0,0,0.0,0,0.0,🛡️ TANGGUH
+== KESELURUHAN (TOTAL) ==,850,6,0.71,7,0.82,12,1.41,📉 Turun 50.0%
