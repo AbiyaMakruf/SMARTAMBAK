@@ -1,0 +1,6 @@
+Tier Hardware,Spesifikasi Target,Daya (Watt),Format Rekomendasi,Estimasi FPS,Estimasi Latensi,Kesesuaian IoT Tambak
+Tier 1: Server Tambak (PC Desktop),NVIDIA RTX Desktop GPU / Core i7,150 - 300 W,PyTorch FP32 (.pt) / TensorRT,150 - 250 FPS,4 - 7 ms,Tinggi (Pusat Kontrol / CCTV Multi-Kolam)
+Tier 2: Mini PC Lapangan (NUC / Industrial),Intel Core i5 / AMD Ryzen Embedded,25 - 45 W,TFLite Dynamic INT8 (w8a32),25 - 45 FPS,22 - 40 ms,Sangat Tinggi (Stasiun Pengawas Pematang)
+Tier 3: Smartphone Petambak (Mobile App),Android Snapdragon 7/8 / MediaTek Dimensity,5 - 10 W,TFLite Dynamic INT8 (w8a32),20 - 35 FPS,28 - 50 ms,Ideal (Aplikasi Inspeksi Anco Petambak)
+Tier 4: Single Board Computer (SBC),Raspberry Pi 5 (ARM Cortex-A76),12 W,TFLite Full INT8 / w8a32,15 - 22 FPS,45 - 65 ms,Sangat Baik (Bertenaga Panel Surya)
+Tier 5: Ultra Low-Power Edge TPU,Google Coral Edge TPU (USB Accelerator),2 W,TFLite Full Static INT8 (edgetpu),60 - 90 FPS,11 - 16 ms,Sempurna untuk Sensor Apung Mandiri

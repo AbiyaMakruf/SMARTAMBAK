@@ -1,0 +1,6 @@
+Model Terkuantisasi,Tipe Kuantisasi,Total Objek Baseline,Objek Cocok (IoU>=0.5),Detection Match Rate (%),Mean Absolute Error (MAE),Korelasi Pearson (r),Rata-rata Box IoU,Dampak Kuantisasi
+PyTorch FP32 (CPU),FP32 (Unquantized),159,159,100.0,0.0,1.0,0.9998,Sangat Minimal (Identik)
+TFLite FP32,FP32 (Standard),159,159,100.0,0.0,1.0,0.9998,Sangat Minimal (Identik)
+TFLite Dynamic INT8 (w8a32),"Weight INT8, Activation FP32",159,159,100.0,0.0041,0.9925,0.9853,Sangat Minimal (Identik)
+TFLite Mixed INT8/INT16 (w8a16),"Weight INT8, Activation INT16",159,159,100.0,0.0074,0.9833,0.9817,Sangat Minimal (Identik)
+TFLite Full Static INT8,"Weight INT8, Activation INT8",159,159,100.0,0.4001,,0.9136,Tinggi (Drift Nyata)
